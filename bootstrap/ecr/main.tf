@@ -1,7 +1,7 @@
 provider "aws" {
   region  = local.aws_region
   profile = "pothole-test"
-  version = "2.48"
+  version = "3.0"
 }
 
 terraform {
